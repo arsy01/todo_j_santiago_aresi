@@ -1,0 +1,41 @@
+ estilos
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #333; /* Color de fondo del menú */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Para que los elementos se muestren en línea */
+}
+
+nav ul li {
+    margin-right: 20px; /* Espacio entre elementos del menú */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+nav ul li a {
+    display: block;
+    color: #e7aaaa; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    padding: 10px; /* Espacio alrededor del texto del enlace */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Color de fondo cuando se pasa el mouse sobre el enlace */
+}
+
+h1{margin-left: 360px;margin-bottom: 50px;}
+
+h2{margin-left: 330px;}
