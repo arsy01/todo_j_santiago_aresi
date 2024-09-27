@@ -19,7 +19,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 10px; /* Espacio entre elementos del menú */
+    margin-right: 0px; /* Espacio entre elementos del menú */
 }
 
 nav ul li:last-child {
@@ -30,7 +30,7 @@ nav ul li a {
     display: block;
     color: #e7aaaa; /* Color del texto del enlace */
     text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
-    padding: 10px; /* Espacio alrededor del texto del enlace */
+    padding: 70px; /* Espacio alrededor del texto del enlace */
 }
 
 nav ul li a:hover {
